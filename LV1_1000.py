@@ -4,10 +4,10 @@
 
 # '''
 
-A,B = int(input()).split()
+ReceivedNumLst = input().split()
+A, B = [int(i) for i in ReceivedNumLst]
 Result = A+B
 print(Result)
-
 
 # A = input()
 # B = input()
@@ -17,6 +17,7 @@ print(Result)
 
 # A, B = int(input()).split()
 # -> split() is for str
+# -> int() can't conver str has space or other character
 
 # A, B = int(input().split())
 # -> int() is for ele not for list
