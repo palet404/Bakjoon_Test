@@ -14,7 +14,7 @@ if -10**4<= (A and B) <= 10**4:
     elif A < B :
         print("<")
     elif A == B :
-        print("=")
+        print("==")
     else :
         pass
 else :
