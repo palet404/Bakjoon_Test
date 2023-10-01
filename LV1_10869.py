@@ -16,3 +16,4 @@ else :
 
 # A//B round down number ex) -1/2 => -0.5 => -1
 # int(A/B) drop the decimal point -1/2 => -0.5 => 0
+# Power operator is ** not ^, ^ is bitwise operator.
