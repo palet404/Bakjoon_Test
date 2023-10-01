@@ -10,7 +10,7 @@
 # Condtion test score is given at first line it is integer number between 0 and 100
 
 TestScore = int(input())
-if 0 < TestScore <= 100:
+if 0 <= TestScore <= 100:
     if 90 <= TestScore <= 100 :
         print("A")
     elif 80<= TestScore <= 89 :
@@ -21,5 +21,8 @@ if 0 < TestScore <= 100:
         print("D")
     elif TestScore <= 59 :
         print("F")
+    else :
+        pass
+
 else :
     print("TestScore should be integer number and it is between 0 and 100")
