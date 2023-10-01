@@ -1,7 +1,7 @@
 FirstNum = input()
 SecondNum = input()
 
-if len(FirstNum)==3 and len(SecondNum) == 3 and  int(FirstNum)>0 and int(SecondNum) > 0:
+if (len(FirstNum) and len(SecondNum)) == 3 and (int(FirstNum) and int(SecondNum)) > 0:
 
     FirstNum = int(FirstNum)
     print(FirstNum * int(SecondNum[2]))
