@@ -26,7 +26,6 @@ else :
 #     ^^^^
 # TypeError: 'int' object is not callable
 # () is not needed for map funtion
-
 ###########################################################################
 # Model answer
 # Didn't follow problems conditon
